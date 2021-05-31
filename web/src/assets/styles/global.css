@@ -1,0 +1,20 @@
+:root {
+  --color-background: #2B3B9A;
+  --color-theme-1: #FD5590;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font: 500 1.6rem Roboto;
+    background: var(--color-background);
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 0 18%;
+  }

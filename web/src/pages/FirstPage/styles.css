@@ -1,0 +1,18 @@
+.first-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 3em;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 60%;
+  height: 60%;
+  margin: 4em 0;
+}

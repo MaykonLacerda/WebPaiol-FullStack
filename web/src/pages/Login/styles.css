@@ -1,0 +1,36 @@
+.login-page {
+  background-color: #FFF;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-login {
+  margin: 3em 0 2em 0;
+  font-size: 0.9em;
+}
+
+.login > input {
+  margin: 0.9em 0;
+  height:42px;
+  padding: 0.7em;
+  border: 2px solid var(--color-theme-1);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.remember {
+  margin: 1em 0;
+  font-size: 0.5em;
+  align-self: flex-start;
+}
+
+.button-login {
+  margin: 2em 0;
+}
