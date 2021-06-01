@@ -7,7 +7,7 @@ export const PrincipalButton = (props) => {
   return (
     <div>
       <Link to={props.to}>
-        <button className="principal-button">{props.text}</button>
+        <button className="principal-button" type="submit">{props.text}</button>
       </Link>
     </div>
   )

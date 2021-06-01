@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PrincipalButton from '../../components/PrincipalButton/PrincipalButton'
+import PrincipalButton from '../../components/Buttons/PrincipalButton/PrincipalButton'
 
 import logo from '../../assets/svgs/logo.svg'
 

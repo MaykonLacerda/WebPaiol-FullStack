@@ -11,14 +11,21 @@
   justify-content: center;
 }
 
+.login p {
+  font-size: 0.6em;
+  font-weight: 300;
+  margin: 1em 0;
+}
+
 .title-login {
-  margin: 3em 0 2em 0;
+  margin: 3em 0;
   font-size: 0.9em;
 }
 
 .login > input {
   margin: 0.9em 0;
   height:42px;
+  width: 270px;
   padding: 0.7em;
   border: 2px solid var(--color-theme-1);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
@@ -26,11 +33,22 @@
 }
 
 .remember {
-  margin: 1em 0;
-  font-size: 0.5em;
   align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 0.1em;
+}
+
+.remember > p {
+  margin-left: 0.7em;
 }
 
 .button-login {
   margin: 2em 0;
+}
+
+.button-contact {
+  margin: 0.5em 0;
 }
