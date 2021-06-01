@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Home = () => {
+export const Dashboard = () => {
   return (
     <div>
       <h1>Bem-Vindo</h1>
@@ -8,4 +8,4 @@ export const Home = () => {
   )
 }
 
-export default Home;
+export default Dashboard;

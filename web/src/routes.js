@@ -3,14 +3,14 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import FirstPage from './pages/FirstPage';
 import Login from './pages/Login';
-import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
 
 function Routes() {
   return (
       <BrowserRouter>
           <Route path="/" exact component={FirstPage} />
           <Route path="/login" component={Login} />
-          <Route path="/home" component={Home} />
+          <Route path="/dashboard" component={Dashboard} />
       </BrowserRouter>
   );
 }
