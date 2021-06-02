@@ -6,7 +6,7 @@
     "password": "test",
     "database": "./src/database/database.sqlite",
     "migrations": ["./src/database/migrations/**.ts"],
-    "entities": ["./src/workers/entities/**.ts", "./src/accounts/entities/**.ts"],
+    "entities": ["./src/accounts/entities/**.ts"],
     "cli": {
         "migrationsDir": "./src/database/migrations"
     }
