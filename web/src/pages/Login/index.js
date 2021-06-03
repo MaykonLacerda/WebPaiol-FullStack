@@ -1,13 +1,28 @@
 import React from 'react'
 
+import api from '../../services/api';
+
 import PrincipalButton from '../../components/Buttons/PrincipalButton/PrincipalButton'
 import SecondButton from '../../components/Buttons/SecondButton/SecondButton'
 
 import './styles.css'
 
 export const Login = () => {
+
+  const teste = () => {
+    api.get('/login').then(response => {
+      const data = response.data;
+      console.log(data[0].name)
+    }).catch(err => {
+      if(err) {
+        console.log(err)
+      }
+    })
+  }
+
   return (
     <div className="wrapper login-page">
+      {teste()}
       <form method="post">
         <div className="login">
           <legend className="title-login">Fazer login</legend>

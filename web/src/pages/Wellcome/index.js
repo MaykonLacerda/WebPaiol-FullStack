@@ -6,7 +6,7 @@ import logo from '../../assets/svgs/logo.svg'
 
 import './styles.css'
 
-export const FirstPage = () => {
+export const Wellcome = () => {
     return (
         <div className="first-page">
           <div className="title"><h1>Web Paiol</h1></div>
@@ -16,4 +16,4 @@ export const FirstPage = () => {
     )
 }
 
-export default FirstPage
+export default Wellcome;
